@@ -1,3 +1,17 @@
 .choices:hover {
 	background-color: red;
 }
+
+
+.container {
+	text-align: center;
+}
+body {
+	background-image: url("../images/hogwarts.jpg");
+
+}
+div {
+	background: white;
+}
+
+
