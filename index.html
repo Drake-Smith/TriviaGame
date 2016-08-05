@@ -3,53 +3,60 @@
     <meta charset="utf-8">
     <title>Trivia - by Drake Smith</title>
         
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/style.css">
-
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-
 </head>
 
 <body>
 
-<div class = "row">
-    <div class = "container">
-        <div class="title">
-            <img class = "logo center-block img-responsive" id = "mainlogo" src="assets/images/harrypotterlogo.png">
-            <img class = "logo center-block img-responsive" id = "sublogo" src="assets/images/byDrake.png">
-        </div>
+    <div class = "row">
+        <div class = "container">
+            <div class="header">
+                <img class = "logo center-block img-responsive" id = "mainlogo" src="assets/images/harrypotter.png">
+                <img class = "logo center-block img-responsive" id = "sublogo" src="assets/images/sublogo.png">
+            </div>
 
-        <div class="startDiv col-xs-8 col-xs-offset-2">
-            <button type="button" id = "start" class="btn btn-danger">Start</button>
-        </div>
+            <div class="info col-xs-8 col-xs-offset-2">
 
-        <div class="clock col-xs-8 col-xs-offset-2">
-            <h3 id="timeLeft"></h3>
-        </div>
+                <div class="startDiv">
+                    <button type="button" id = "start" class="btn btn-danger">Start</button>
+                </div>
 
-        <div class="question col-xs-8 col-xs-offset-2">
+                <div class="clock">
+                    <h3 id="timeLeft"></h3>
+                    <h4 id="howMany"></h4>
+                </div>
+
+                <div class="question">
+                </div>
+                    
+                <div class = "choices" id="choice1">
+                </div>
+                    
+                <div class = "choices" id="choice2">
+                </div>
+                    
+                <div class = "choices" id="choice3">
+                </div>
+                    
+                <div class = "choices" id="choice4">
+                </div>
+                    
+                <div id = "answer">
+                </div>
+
+                <div class = "photo">
+                </div>
+
+                <div class = "test" id = "final-results">
+                </div>   
+
+            </div>                                 
         </div>
-            
-        <div class = "choices col-xs-8 col-xs-offset-2" id="choice1">
-        </div>
-            
-        <div class = "choices col-xs-8 col-xs-offset-2" id="choice2">
-        </div>
-            
-        <div class = "choices col-xs-8 col-xs-offset-2" id="choice3">
-        </div>
-            
-        <div class = "choices col-xs-8 col-xs-offset-2" id="choice4">
-        </div>
-            
-        <div class = "col-xs-8 col-xs-offset-2" id = "answer">
-        </div>
-        <div class = "col-xs-8 col-xs-offset-2" id = "final-results">
-        </div>                                    
     </div>
-</div>
 
     <script type="text/javascript" src="assets/javascript/app.js"> </script>
 
