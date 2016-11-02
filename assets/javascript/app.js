@@ -1,5 +1,5 @@
 //declare variables
-var timeLeft = 12; //starts off at 12 seconds
+var timeLeft = 15; //starts off at 15 seconds
 var handler; //var for the timer
 var correct = 0; //how many questions guessed correctly
 var incorrect = 0; //how many questions guessed incorrectly
@@ -119,7 +119,7 @@ $(document).ready(function(){
 
 	//reset timer to 12 seconds
 	function reset() {
-		timeLeft = 12;
+		timeLeft = 15;
 		$("#timeLeft").html("Time Remaining: " + timeLeft + " seconds");
 	}
 
